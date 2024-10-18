@@ -1,67 +1,67 @@
 {
   "train": [
     {
-      "root": "/home/240802_Rico_train/image/combined/jpg_folder",
-      "anno": "/home/240802_Rico_train/json/OD_Button/OD_Button_train.jsonl",
-      "label_map": "/home/240802_Rico_train/json/OD_Button/Button_label_map.json",
+      "root": "/home/hlh/240802_Rico_train/image/combined/jpg_folder",
+      "anno": "/home/hlh/240802_Rico_train/json/OD_Button/OD_Button_train.jsonl",
+      "label_map": "/home/hlh/240802_Rico_train/json/OD_Button/Button_label_map.json",
       "dataset_mode": "odvg"
     },
     {
-      "root": "/home/240802_Rico_train/image/combined/jpg_folder",
-      "anno": "/home/240802_Rico_train/json/OD_Icon/OD_Icon_train.jsonl",
-      "label_map": "/home/240802_Rico_train/json/OD_Icon/Icon_label_map.json",
+      "root": "/home/hlh/240802_Rico_train/image/combined/jpg_folder",
+      "anno": "/home/hlh/240802_Rico_train/json/OD_Icon/OD_Icon_train.jsonl",
+      "label_map": "/home/hlh/240802_Rico_train/json/OD_Icon/Icon_label_map.json",
       "dataset_mode": "odvg"
     },
     {
-      "root": "/home/240802_Rico_train/image/heatmap_OD_Button_image",
-      "anno": "/home/240802_Rico_train/json/OD_Button/heatmap_Button_train.jsonl",
-      "label_map": "/home/240802_Rico_train/json/OD_Button/Button_label_map.json",
+      "root": "/home/hlh/240802_Rico_train/image/heatmap_OD_Button_image",
+      "anno": "/home/hlh/240802_Rico_train/json/OD_Button/heatmap_Button_train.jsonl",
+      "label_map": "/home/hlh/240802_Rico_train/json/OD_Button/Button_label_map.json",
       "dataset_mode": "odvg"
     },
     {
-      "root": "/home/240802_Rico_train/image/heatmap_OD_Icon_image",
-      "anno": "/home/240802_Rico_train/json/OD_Icon/heatmap_Icon_train.jsonl",
-      "label_map": "/home/240802_Rico_train/json/OD_Icon/Icon_label_map.json",
+      "root": "/home/hlh/240802_Rico_train/image/heatmap_OD_Icon_image",
+      "anno": "/home/hlh/240802_Rico_train/json/OD_Icon/heatmap_Icon_train.jsonl",
+      "label_map": "/home/hlh/240802_Rico_train/json/OD_Icon/Icon_label_map.json",
       "dataset_mode": "odvg"
     },
     {
-      "root": "//home/240802_Rico_train/image/combined/jpg_folder",
-      "anno": "/home/240802_Rico_train/json/VG_Text/VG_Text_train.jsonl",
+      "root": "/home/hlh/240802_Rico_train/image/combined/jpg_folder",
+      "anno": "/home/hlh/240802_Rico_train/json/VG_Text/VG_Text_train.jsonl",
       "dataset_mode": "odvg"
     },
     {
-      "root": "/home/240802_Rico_train/image/combined/jpg_folder",
-      "anno": "/home/240802_Rico_train/json/VG_TextButton/VG_TextButton_train.jsonl",
+      "root": "/home/hlh/240802_Rico_train/image/combined/jpg_folder",
+      "anno": "/home/hlh/240802_Rico_train/json/VG_TextButton/VG_TextButton_train.jsonl",
       "dataset_mode": "odvg"
     },
     {
-      "root": "/home/240802_Rico_train/image/heatmap_image",
-      "anno": "/home/240802_Rico_train/json/VG_heatmap/heatmap_train.jsonl",
+      "root": "/home/hlh/240802_Rico_train/image/heatmap_image",
+      "anno": "/home/hlh/240802_Rico_train/json/VG_heatmap/heatmap_train.jsonl",
       "dataset_mode": "odvg"
     }
   ],
   "val": [
     {
-      "root": "/home/240802_Rico_train/image/combined/jpg_folder",
-      "anno": "/home/240802_Rico_train/json/OD_Icon/OD_Icon_val.json",
+      "root": "/home/hlh/240802_Rico_train/image/combined/jpg_folder",
+      "anno": "/home/hlh/240802_Rico_train/json/OD_Icon/OD_Icon_val.json",
       "label_map": null,
       "dataset_mode": "coco"
     },
     {
-      "root": "/home/240802_Rico_train/image/combined/jpg_folder",
-      "anno": "/home/240802_Rico_train/json/OD_Button/OD_Button_val.json",
+      "root": "/home/hlh/240802_Rico_train/image/combined/jpg_folder",
+      "anno": "/home/hlh/240802_Rico_train/json/OD_Button/OD_Button_val.json",
       "label_map": null,
       "dataset_mode": "coco"
     },
     {
-      "root": "/home/240802_Rico_train/image/heatmap_OD_Icon_image",
-      "anno": "/home/240802_Rico_train/json/OD_Icon/heatmap_Icon_val.json",
+      "root": "/home/hlh/240802_Rico_train/image/heatmap_OD_Icon_image",
+      "anno": "/home/hlh/240802_Rico_train/json/OD_Icon/heatmap_Icon_val.json",
       "label_map": null,
       "dataset_mode": "coco"
     },
     {
-      "root": "/home/240802_Rico_train/image/heatmap_OD_Button_image",
-      "anno": "/home/240802_Rico_train/json/OD_Button/heatmap_Button_val.json",
+      "root": "/home/hlh/240802_Rico_train/image/heatmap_OD_Button_image",
+      "anno": "/home/hlh/240802_Rico_train/json/OD_Button/heatmap_Button_val.json",
       "label_map": null,
       "dataset_mode": "coco"
     }
