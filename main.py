@@ -219,8 +219,8 @@ def main(args):
         model_without_ddp.detr.load_state_dict(clean_state_dict(checkpoint['model']),strict=False)
 
     output_dir = Path(args.output_dir)
-    if os.path.exists(os.path.join(args.output_dir, 'checkpoint.pth')):
-        args.resume = os.path.join(args.output_dir, 'checkpoint.pth')
+    # if os.path.exists(os.path.join(args.output_dir, 'checkpoint.pth')):
+    #     args.resume = os.path.join(args.output_dir, 'checkpoint.pth')
     if args.resume:
         if args.resume.startswith('https'):
             checkpoint = torch.hub.load_state_dict_from_url(
@@ -340,6 +340,7 @@ def main(args):
         if args.output_dir and utils.is_main_process():
             with (output_dir / "log.txt").open("a") as f:
                 f.write(json.dumps(log_stats) + "\n")
+                f.write("Epoch: {}, mAP@0.5: {}\n".format(epoch, log_stats['test_coco_eval_bbox'][1]))
 
             # for evaluation logs
             if coco_evaluator is not None:
