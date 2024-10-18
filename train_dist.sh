@@ -13,8 +13,8 @@ MASTER_ADDR=${MASTER_ADDR:-"127.0.0.1"}
 
 python -m torch.distributed.launch  --nproc_per_node=${GPU_NUM} main.py \
         --output_dir ./output \
-        -c /home/hlh/Open-GroundingDino-V2/config/cfg_odvg.py \
-        --datasets /hone/hlh/Open-GroundingDino-V2/config/datasets_mixed_odvg_train.json \
-        --pretrain_model_path /home/hlh/Open-GroundingDino-V2/groundingdino_swint_ogc.pth \
-        --options text_encoder_type=/home/hlh/Open-GroundingDino-V2/bert-base-uncased
+        -c ./config/cfg_odvg.py \
+        --datasets ./config/datasets_mixed_odvg_train.json \
+        --pretrain_model_path ./groundingdino_swint_ogc.pth \
+        --options text_encoder_type=./bert-base-uncased
  
